@@ -2,6 +2,9 @@ import { Atlasmap } from "@atlasmap/atlasmap";
 import { Brand, Page, PageHeader, PageSection } from "@patternfly/react-core";
 import React  from "react";
 import atlasmapLogo from "./logo-horizontal-darkbg.png";
+import MicroIframe, { pluginInterceptor, isCalledByParent } from "micro-frontend-iframe";
+
+MicroIframe.init('CHILD-ID');
 
 const App: React.FC = () => {
   return (

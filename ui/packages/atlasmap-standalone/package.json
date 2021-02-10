@@ -3,7 +3,7 @@
   "version": "2.2.0-SNAPSHOT",
   "private": true,
   "dependencies": {
-    "@atlasmap/atlasmap": "^2.2.0-SNAPSHOT",
+    "@atlasmap/atlasmap": "^2.1.4",
     "@patternfly/react-core": "^3.77.2",
     "@patternfly/react-icons": "^3.10.15",
     "@patternfly/react-styles": "^3.5.7",
@@ -20,6 +20,7 @@
     "http-proxy-middleware": "^0.20.0",
     "ky": "^0.17.0",
     "lodash.clamp": "^4.0.3",
+    "micro-frontend-iframe": "^1.0.4",
     "react": "^16.13.1",
     "react-dnd": "^10.0.2",
     "react-dnd-html5-backend": "^10.0.2",
